@@ -1,0 +1,750 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --cor-letra: #0a4f71;
+    --cor-rodape:  #0072a6;
+    --cor-incio:#F2F2F2;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+.navbar .logo{
+    margin-left: 30px;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+
+.navbar{
+    display: flex;
+    padding: 20px 20px;
+    padding-bottom: 20px;
+   
+    
+}
+
+.navbar .container-fluid{
+    text-align: center;
+    color: #7b7361;
+    margin-left: 60px;
+    
+}
+.container-fluid{
+    padding: 0%;
+    
+}
+.navbar .container-fluid .icones svg{
+    margin-left: 3px;
+    margin-right: 19px;
+    height: 30px;
+    width: 30px;
+    color: #7b7361;
+}
+
+.container-fluid .botao .btn{
+    margin-right: 30px;
+    background-color: #fc693b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.marrom .navbar{
+margin-left: 50px;
+margin-right: 50px;
+background-color: #7b7361;
+display: flex;
+justify-content: space-between;
+   
+}
+
+.marrom .navbar a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-size:21px ;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.marrom .navbar :hover {
+    text-decoration: underline;
+    
+}
+
+
+.container-fluid .botao .btn:hover{
+    background-color: #dd5659;
+}
+
+
+.faixa{
+    background-color: #dd5659;
+    width: 100%;
+}
+
+.tabela{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+ 
+
+}
+
+.tabela td{
+    padding-right: 30px;
+}
+
+.buscar{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.buscar .navbar{
+  width: 100%;
+}
+
+.buscar .navbar  .container-fluid .btn{
+    background-color: #b60033;
+    color: #F2F2F2;
+}
+
+.buscar .navbar  .container-fluid .form-control{
+    border: 1px solid #a8112e;
+   width: 500px;
+   right: 5%;
+   
+}
+
+.banner img{
+    position: relative;
+    width: 100%;
+}
+
+.banner .botaobanner {
+    font-size: 18px;
+    position: absolute;
+    top: 91%;
+    left: 7.6%;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    background-color:#A8192C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 290px; /* Aumente a largura do botão */
+    height: 70px;
+    font-weight: bold;
+}
+
+.tabela{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 14px;
+    width: 100%;
+}
+
+
+
+.tabela2  {
+    width: 100%;
+}
+
+
+.tabela img{
+    position: relative;
+    width: 100%;
+}
+
+.botao1 {
+    font-size: 18px;
+    position: absolute;
+    top: 174%;
+    left: 6.8%;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    background-color:#ba5343;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: start;
+    width: 200px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+}
+
+.botao2 {
+    font-size: 18px;
+    position: absolute;
+    top: 174%;
+    left: 37.5%;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px;
+    background-color: #ba5343;
+    color: #fff;
+    border: none;
+    text-align: start;
+    cursor: pointer;
+    width: 200px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+
+}
+
+
+.botao3 {
+    font-size: 18px;
+    position: absolute;
+    top: 174%;
+    left: 68%;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    background-color:#ba5343;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 200px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+
+}
+
+.buscar .container-fluid{
+   padding: 20px;
+   padding-top: 70px;
+}
+
+.buscar  a{
+    font-size:34.2px ;
+    color: #a8112e;
+    font-family: 'Lato', sans-serif;
+}
+
+.buscar .tabela2 button{
+    border-radius: 0%;
+    font-size: 19px;
+    color: #ffffff;
+    background-color:#a8112e;
+    width: 180px; /* Aumente a largura do botão */
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+   text-decoration: none;
+    
+
+}
+
+.buscar .tabela2  .d-flex{
+    margin-top: 40px;
+}
+
+.buscar .tabela2  .d-flex .form-control{
+ border-color: #A8192C;
+
+}
+
+
+.info .tabela3{
+    margin-top: 65px;
+    border-collapse: separate;
+    border-spacing: 30px;
+    display: flex;
+   justify-content: center;
+}
+    
+
+
+
+.info .tabela3 .texto1 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 37.8px;
+    margin-left: 0px;
+    color: #a8112e;
+}
+
+.info .tabela3 .texto1 p{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 22.5px;
+
+}
+
+.info .tabela3 .texto3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20.7px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.info .tabela3 .texto3 button{
+    margin-bottom: 12px;
+}
+
+
+
+.info .tabela3 .texto3 .botaovermelho{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color:#a8112e;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 200px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+
+}
+
+.info .tabela3 .texto3 .botaoamarelo{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #ef9c4b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 200px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+
+}
+
+.opinioes{
+    background-color:  #f7f7f7;
+    margin-top: 35px;
+    padding-top: 55px;
+   
+}
+
+.opinioes .tituloopi{
+    color: #b60033;
+    text-align: center;
+}
+
+
+
+.opinioes .tabela img{
+    position: relative;
+    width:100%;
+}
+
+
+.simule{
+   padding-top: 90px;
+    background-color:#f7f7f7;
+}
+
+.simule .teste img{
+    position: relative;
+    width: 100%;
+}
+
+.simule .teste .botaosimule{
+    font-size: 19px;
+    position: absolute;
+    top: 2795px;
+    left: 71.6%;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    background-color:#b60033;
+    text-decoration: none;
+    width: 280px; /* Aumente a largura do botão */
+    height: 80px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    border: none;
+cursor: pointer;
+   
+}
+
+.painelvideo{
+    margin: 0;
+    margin-top: 0px;
+}
+
+.painelvideo  .painel1{
+    width: 650px;
+    height: 350px;
+    padding-left: 50px;
+    font-family: 'Lato', sans-serif;
+ }
+
+ .painelvideo .painel2 iframe {
+    width: 650px;
+    height: 350px;
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paineisinfo{
+    background-color: #F2F2F2;
+    padding-top: 50px;
+  
+}
+
+.paineisinfo .tabela{
+    border-collapse: separate;
+    border-spacing: 30px; 
+}
+
+
+.paineisinfo h2{
+    color: #b60033;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 32.5px;
+}
+
+.paineisinfo p{
+    color:#7b7361;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17.5px;
+}
+
+.paineisinfo .tabela svg {
+    color:#b60033;
+}
+
+.paineisinfo .tabela td{
+
+    padding-top: 55px;
+    background-color:#f7f7f7;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 45px;
+   
+}
+
+.paineisinfo .tabela h3{
+        margin-top: 31px;
+        color: #7b7361;
+        text-transform: uppercase;
+       font-size: 17px;
+}
+
+.paineisinfo .tabela  p{
+    margin-top: 20px;
+   color: #7b7361;
+   font-size: 16.2px;
+}
+
+.paineisinfo .tabela .btn{
+    color: #ffffff;
+    background-color:#b60033;
+    text-decoration: none;
+    width: 167px; /* Aumente a largura do botão */
+    height: 62px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center; 
+ 
+}
+
+.paineisinfo .tabela .btn:hover{
+        background-color:    #7b7361;;
+}
+
+
+.painelvideo .tabela .painel1{
+    background-color: #7b7361;
+}
+
+
+.blogopinioes{
+    padding-top: 65px;
+    background-color: #F2F2F2;
+    
+}
+
+
+.blogopinioes .tabela{
+    border-collapse: separate;
+    border-spacing: 30px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.blogopinioes .tabela td{
+    padding-right: 0;
+    background-color:#ffffff;
+    padding-bottom: 35px;
+
+  
+
+}
+
+.blogopinioes .bloop{
+    color: #a8112e;
+    text-align: center;
+}
+
+.blogopinioes .tabela  p{
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #7b7361;
+    text-align:left
+}
+
+.blogopinioes .tabela  h3{
+    margin-left: 25px;
+    font-size: 23.4px;
+    font-weight: 300;
+    color: #7b7361;
+    text-align:left
+}
+
+.blogopinioes .tabela td:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra quando o mouse passa sobre a célula */
+}
+
+.faixa {
+    background-color: #F2F2F2;
+text-align: center;
+}
+
+.faixa button{
+    border-radius: 0%;
+    cursor: pointer;
+    text-transform: uppercase;
+width: 800px; /* Aumente a largura do botão */
+height: 90px;
+font-size: 20px;
+color: #7b7361;
+border-color: #dd5659;
+font-weight: bold;
+
+}
+
+.faixa button .verme{
+    color:#dd5659;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.faixaroxa{
+    padding-top: 65px;
+    background-color: #F2F2F2;
+
+}
+
+.faixaroxa img{
+width: 100%;
+}
+
+.faixa button:hover {
+    background-color: #fff; /* Altera o fundo para branco no hover */
+    
+  }
+
+
+
+
+.faixacinza{
+    background-color:  #ccc6b6;
+    margin-top: 70px;
+   
+}
+
+
+.faixacinza .tabela{
+    border-collapse: center;
+    border-spacing: 15px; 
+}
+
+.faixacinza .tabela svg{
+    color: #ffffff;
+    align-items: center;
+   
+}
+
+
+.faixacinza .tabela h3{
+    font-size:14.4px;
+    color: #7b7361;
+    margin-top: 24px;
+    align-items: center;
+}
+
+
+.faixacinza .tabela button{
+    background-color:  #ccc6b6;
+    padding: 28px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    align-items: center;
+    border-left: 1px solid rgb(253, 253, 253);
+}
+
+
+.rodape{
+    background-color: #ededed;
+    font-family: 'Lato', sans-serif;
+    color: #7b7361;
+}
+.rodape .titulo{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 55px;
+    background-color: #ededed;
+    font-size: 15px;
+    color: #7b7361;
+    word-spacing: 10px;
+
+
+}
+.rodape .titulo svg{
+    margin-left: 25%;
+    margin-right: 25px;
+    color: #a8112e;
+   
+}
+
+.rodape .texto{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 14.4px;
+    font-weight: bold;
+}
+
+.rodape .termo{
+    text-align: justify;
+    padding-top: 35px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 14.4px;
+}
+.rodape .email{
+    text-align: justify;
+    padding-top: 35px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 14.4px;
+    
+}
+
+.rodape .box .radio{
+    display: inline-block;
+  margin-right: 10px;
+  font-size: 14.4px;
+}
+
+.rodape .box{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.rodape .texto2{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 14.4px;
+    padding-bottom: 10px;
+}
+
+.texto2 .radio{
+    margin-right: 30px;
+}
+
+.rodape  .politica{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 15px;
+    font-size: 14.4px;
+
+}
+
+.rodape .politica a{
+    text-decoration: none;
+    color:#A8192C;
+    color: #7b7361;
+}
+
+.rodape .rodapeprin h3{
+    font-size: 15.4px;
+    text-align: left;
+    color: #561922;
+}
+
+.rodape .rodapeprin .tabela td{
+    vertical-align: top;
+    margin-top: 0%;
+
+}
+
+.rodape .rodapeprin .tabela p{
+    font-size: 13.8px;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+.rodape .rodapeprin .imagem{
+    width: 170px;
+    height: 78px;
+}
+
+.rodape .rodapeprin .tabela .icones svg{
+    display: flex;
+    flex-direction: column;
+    color: #a8112e;
+    margin-bottom: 15px;
+    
+}
+.painelvideo{
+    margin-top: 0%;
+}
+.painelvideo .tabela .painel1 h2{
+font-size: 25.6px;
+color: #ededed;
+}
